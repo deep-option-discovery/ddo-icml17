@@ -57,7 +57,7 @@ class Runner(object):
         return gradient, info
 
 
-def train(num_workers, env_name="Frostbite-v0", max_steps=10, model=None, k=None):
+def train(num_workers, env_name="Frostbite-v0", max_steps=1e8, model=None, k=None):
     env = create_env(env_name, model)
 
     policy = LSTMPolicy(env.observation_space.shape, env.action_space.n, 0)

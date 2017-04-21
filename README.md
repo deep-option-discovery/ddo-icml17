@@ -26,9 +26,9 @@ cd segment
 source bin/activate
 ```
 
-Clone the git repo
+To Run
 ```
-git clone https://sjyk@bitbucket.org/sjyk/segment-centroid.git
+python runA3CExp.py
 ```
 
 ## Documentation
